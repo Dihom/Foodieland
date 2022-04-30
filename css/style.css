@@ -1,4 +1,98 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Lobster';
+  src: url("../fonts/Lobster-Regular/Lobster-Regular.woff2") format("woff2"), url("../fonts/Lobster-Regular/Lobster-Regular.woff") format("woff"), url("../fonts/Lobster-Regular/Lobster-Regular.ttf") format("ttf");
+  /* изменен url до файлов шрифтов */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url("../fonts/SFProText/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFProText/SFProDisplay-Regular.woff") format("woff"), url("../fonts/SFProText/SFProDisplay-Regular.ttf") format("ttf"), url("../fonts/SFProText/SFProDisplay-Regular.eot") format("eot");
+  /* изменен url до файлов шрифтов */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url("../fonts/SFProText/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/SFProText/SFProDisplay-Semibold.woff") format("woff"), url("../fonts/SFProText/SFProDisplay-Semibold.ttf") format("ttf"), url("../fonts/SFProText/SFProDisplay-Semibold.eot") format("eot");
+  /* изменен url до файлов шрифтов */
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'EudoxusSans';
+  src: url("../fonts/EudoxunSans/EudoxusSans-Medium.woff2") format("woff2"), url("../fonts/EudoxunSans/EudoxusSans-Medium.woff") format("woff"), url("../fonts/EudoxunSans/EudoxusSans-Medium.ttf") format("ttf");
+  /* изменен url до файлов шрифтов */
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter/Inter-Regular.woff") format("woff"), url("../fonts/Inter/Inter-Regular.ttf") format("ttf"), url("../fonts/Inter/Inter-Regular.eot") format("eot");
+  /* изменен url до файлов шрифтов */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter/Inter-Medium.woff") format("woff"), url("../fonts/Inter/Inter-Medium.ttf") format("ttf"), url("../fonts/Inter/Inter-Medium.eot") format("eot");
+  /* изменен url до файлов шрифтов */
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/Inter/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBold.woff") format("woff"), url("../fonts/Inter/Inter-SemiBold.ttf") format("ttf"), url("../fonts/Inter/Inter-SemiBold.eot") format("eot");
+  /* изменен url до файлов шрифтов */
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBoldItalic.woff") format("woff"), url("../fonts/Inter/Inter-SemiBoldItalic.ttf") format("ttf"), url("../fonts/Inter/Inter-SemiBoldItalic.eot") format("eot");
+  /* изменен url до файлов шрифтов */
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/Inter/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter/Inter-Bold.woff") format("woff"), url("../fonts/Inter/Inter-Bold.ttf") format("ttf"), url("../fonts/Inter/Inter-Bold.eot") format("eot");
+  /* изменен url до файлов шрифтов */
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 html {
-  font-family: 'Lobster', cursive;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
 }
