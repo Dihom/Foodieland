@@ -95,4 +95,5 @@ a {
 
 ul {
   list-style: none;
+  color: inherit;
 }
