@@ -4,7 +4,7 @@
 }
 
 html {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 16px;
 }
 
@@ -27,7 +27,7 @@ ul {
 }
 
 @font-face {
-  font-family: 'Lobster';
+  font-family: "Lobster";
   src: url("../fonts/Lobster-Regular/Lobster-Regular.woff2") format("woff2"), url("../fonts/Lobster-Regular/Lobster-Regular.woff") format("woff"), url("../fonts/Lobster-Regular/Lobster-Regular.ttf") format("ttf");
   /* изменен url до файлов шрифтов */
   font-weight: 400;
@@ -35,7 +35,7 @@ ul {
   font-display: swap;
 }
 @font-face {
-  font-family: 'SFProDisplay';
+  font-family: "SFProDisplay";
   src: url("../fonts/SFProText/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFProText/SFProDisplay-Regular.woff") format("woff"), url("../fonts/SFProText/SFProDisplay-Regular.ttf") format("ttf"), url("../fonts/SFProText/SFProDisplay-Regular.eot") format("eot");
   /* изменен url до файлов шрифтов */
   font-weight: 400;
@@ -43,7 +43,7 @@ ul {
   font-display: swap;
 }
 @font-face {
-  font-family: 'SFProDisplay';
+  font-family: "SFProDisplay";
   src: url("../fonts/SFProText/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/SFProText/SFProDisplay-Semibold.woff") format("woff"), url("../fonts/SFProText/SFProDisplay-Semibold.ttf") format("ttf"), url("../fonts/SFProText/SFProDisplay-Semibold.eot") format("eot");
   /* изменен url до файлов шрифтов */
   font-weight: 600;
@@ -51,7 +51,7 @@ ul {
   font-display: swap;
 }
 @font-face {
-  font-family: 'EudoxusSans';
+  font-family: "EudoxusSans";
   src: url("../fonts/EudoxunSans/EudoxusSans-Medium.woff2") format("woff2"), url("../fonts/EudoxunSans/EudoxusSans-Medium.woff") format("woff"), url("../fonts/EudoxunSans/EudoxusSans-Medium.ttf") format("ttf");
   /* изменен url до файлов шрифтов */
   font-weight: 500;
@@ -59,7 +59,7 @@ ul {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter/Inter-Regular.woff") format("woff"), url("../fonts/Inter/Inter-Regular.ttf") format("ttf"), url("../fonts/Inter/Inter-Regular.eot") format("eot");
   /* изменен url до файлов шрифтов */
   font-weight: 400;
@@ -67,7 +67,7 @@ ul {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter/Inter-Medium.woff") format("woff"), url("../fonts/Inter/Inter-Medium.ttf") format("ttf"), url("../fonts/Inter/Inter-Medium.eot") format("eot");
   /* изменен url до файлов шрифтов */
   font-weight: 500;
@@ -75,7 +75,7 @@ ul {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   src: url("../fonts/Inter/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBold.woff") format("woff"), url("../fonts/Inter/Inter-SemiBold.ttf") format("ttf"), url("../fonts/Inter/Inter-SemiBold.eot") format("eot");
   /* изменен url до файлов шрифтов */
   font-weight: 600;
@@ -83,7 +83,7 @@ ul {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter Italic";
   src: url("../fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBoldItalic.woff") format("woff"), url("../fonts/Inter/Inter-SemiBoldItalic.ttf") format("ttf"), url("../fonts/Inter/Inter-SemiBoldItalic.eot") format("eot");
   /* изменен url до файлов шрифтов */
   font-weight: 600;
@@ -91,7 +91,7 @@ ul {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   src: url("../fonts/Inter/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter/Inter-Bold.woff") format("woff"), url("../fonts/Inter/Inter-Bold.ttf") format("ttf"), url("../fonts/Inter/Inter-Bold.eot") format("eot");
   /* изменен url до файлов шрифтов */
   font-weight: 700;
@@ -111,18 +111,38 @@ body {
   padding: 0 15px;
 }
 
-.socials {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.04em;
+  color: #000000;
 }
-.socials__link {
-  display: flex;
-  text-align: center;
+
+.description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
 }
-.socials__icon {
-  width: 22px;
-  height: 22px;
+
+.preparation__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.preparation__icon {
+  width: 24px;
+  height: 24px;
 }
 
 .header {
@@ -131,16 +151,13 @@ body {
 .header-wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .header .navigation__list {
   display: flex;
   gap: 60px;
 }
 .header .navigation__link {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -148,3 +165,55 @@ body {
   letter-spacing: -0.02em;
   color: #000000;
 }
+.header .socials {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header .socials__link {
+  display: flex;
+  text-align: center;
+}
+.header .socials__icon {
+  width: 22px;
+  height: 22px;
+}
+
+.heading {
+  margin-top: 40px;
+}
+.heading .headinig-left {
+  padding: 50px;
+  max-width: 620px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #E7FAFE;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.heading .hot-recipes {
+  padding: 10px 20px;
+  width: 156px;
+  height: 45px;
+  gap: 13px;
+  background: #fff;
+  border-radius: 30px;
+}
+.heading .hot-recipes__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.header-wrapper, .heading .hot-recipes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */

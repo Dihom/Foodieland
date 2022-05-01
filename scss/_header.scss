@@ -4,9 +4,7 @@
     &-wrapper {
         padding-top: 40px;
         padding-bottom: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        @extend %flexis;
     }
 
     .navigation__list {
@@ -22,5 +20,21 @@
         line-height: 19px;
         letter-spacing: -0.02em;
         color: $color-text-nav;
+    }
+
+    .socials {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    
+        &__link {
+            display: flex;
+            text-align: center;
+        }
+    
+        &__icon {
+            width: 22px;
+            height: 22px;
+        }
     }
 }

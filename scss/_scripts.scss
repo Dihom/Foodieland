@@ -11,20 +11,38 @@ body {
     padding: 0 15px;
 }
 
-.socials {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.04em;
+    color: $color-title;
+}
 
-    &__link {
-        display: flex;
-        text-align: center;
-    }
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $color-descpr;
+}
 
-    &__icon {
-        width: 22px;
-        height: 22px;
-    }
+.preparation__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: $color-text-time;
+}
+
+.preparation__icon {
+    width: 24px;
+    height: 24px;
 }
 
 
