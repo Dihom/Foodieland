@@ -1,0 +1,135 @@
+.heading-container {
+    display: flex;
+}
+
+.heading {
+    margin-top: 40px;
+
+    .headinig-left {
+        padding: 50px;
+        max-width: 620px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: $color-block;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .hot-recipes {
+        padding: 10px 20px;
+        width: 156px;
+        height: 45px;
+        @extend %flexis;
+        gap: 13px;
+        background: #fff;
+        border-radius: 30px;
+
+        &__text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.02em;
+            color: #000000;
+        }
+    }
+
+    .heading-left__hot-recipes {
+        margin-bottom: 32px;
+    }
+
+    .heading-left__title {
+        margin-bottom: 24px;
+    }
+
+    .heading-left__description {
+        margin-bottom: 30px;
+    }
+
+    .preparation {
+        display: flex;
+        gap: 16px;
+
+        &__time {
+            @extend %preperation; 
+        }
+
+        &__product {
+            @extend %preperation; 
+        }
+    }
+
+    .heading-left__preparation {
+        margin-bottom: 99px;
+    }
+
+    .heading-left__more {
+        @extend %flexis;
+    }
+
+    .author {
+        display: flex;
+        align-items: center;
+
+        &__avatar {
+            display: flex;
+            align-items: center;
+            padding-right: 16px;
+        }
+
+        &__info-name {
+            margin-bottom: 8px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: #000000;
+        }
+
+        &__info-date {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.02em;
+            color: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    .heading__button {
+        padding: 18px 37px;
+        display: flex;
+        align-items: center;
+    }
+
+    .heading__button::after {
+        padding-left: 16px;
+        content: url('/img/heading/PlayCircle.svg');
+    }
+
+    .headinig-right {
+        max-width: 660px;
+        height: 640px;
+        width: 100%;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        position: relative;
+        background-image: url('/img/heading/chiken-recipes.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .heading-right__badge {
+        position: absolute;
+        top: 50px;
+        left: -50px;
+    }
+
+}
+

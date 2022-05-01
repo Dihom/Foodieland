@@ -45,6 +45,19 @@ body {
     height: 24px;
 }
 
+.button {
+    // padding: 21px 37px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: $color-btn;
+    background: $bg-btn;
+    border-radius: 16px;
+}
+
 
 
 

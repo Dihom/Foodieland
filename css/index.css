@@ -98,19 +98,10 @@ ul {
   color: inherit;
 }
 
-.heading .heading-left__more, .heading .hot-recipes, .header-wrapper {
+.heading .hot-recipes, .header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.heading .preparation__product, .heading .preparation__time {
-  padding: 8px 16px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 30px;
 }
 
 body {
@@ -160,18 +151,6 @@ body {
   height: 24px;
 }
 
-.button {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: -0.02em;
-  color: #ffffff;
-  background: #000000;
-  border-radius: 16px;
-}
-
 .header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -206,10 +185,6 @@ body {
   height: 22px;
 }
 
-.heading-container {
-  display: flex;
-}
-
 .heading {
   margin-top: 40px;
 }
@@ -240,75 +215,5 @@ body {
   letter-spacing: -0.02em;
   color: #000000;
 }
-.heading .heading-left__hot-recipes {
-  margin-bottom: 32px;
-}
-.heading .heading-left__title {
-  margin-bottom: 24px;
-}
-.heading .heading-left__description {
-  margin-bottom: 30px;
-}
-.heading .preparation {
-  display: flex;
-  gap: 16px;
-}
-.heading .heading-left__preparation {
-  margin-bottom: 99px;
-}
-.heading .author {
-  display: flex;
-  align-items: center;
-}
-.heading .author__avatar {
-  display: flex;
-  align-items: center;
-  padding-right: 16px;
-}
-.heading .author__info-name {
-  margin-bottom: 8px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: -0.02em;
-  color: #000000;
-}
-.heading .author__info-date {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: -0.02em;
-  color: rgba(0, 0, 0, 0.6);
-}
-.heading .heading__button {
-  padding: 18px 37px;
-  display: flex;
-  align-items: center;
-}
-.heading .heading__button::after {
-  padding-left: 16px;
-  content: url("/img/heading/PlayCircle.svg");
-}
-.heading .headinig-right {
-  max-width: 660px;
-  height: 640px;
-  width: 100%;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
-  position: relative;
-  background-image: url("/img/heading/chiken-recipes.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.heading .heading-right__badge {
-  position: absolute;
-  top: 50px;
-  left: -50px;
-}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */
