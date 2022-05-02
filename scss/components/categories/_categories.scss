@@ -1,0 +1,106 @@
+.categories {
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__text {
+        margin-bottom: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .categories__view {
+            padding: 20px 27px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: #000000;
+            background: #E7FAFE;
+            border-radius: 16px;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .categories__cards-item {
+            padding-bottom: 30px;
+            width: 180px;
+            height: 152px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+            transition: transform .2s ease-in-out;
+        }
+
+        .categories__cards-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .categories__cards-item--one {
+            background-image: url('/img/categories/bg/bg-01.png');
+            @extend %bgi-property;
+        }
+
+        .categories__cards-item--two {
+            background-image: url('/img/categories/bg/bg-02.png');
+            @extend %bgi-property;
+        }
+
+        .categories__cards-item--three {
+            background-image: url('/img/categories/bg/bg-03.png');
+            @extend %bgi-property;
+        }
+
+        .categories__cards-item--four {
+            background-image: url('/img/categories/bg/bg-04.png');
+            @extend %bgi-property;
+        }
+
+        .categories__cards-item--five {
+            background-image: url('/img/categories/bg/bg-05.png');
+            @extend %bgi-property;
+        }
+
+        .categories__cards-item--six {
+            background-image: url('/img/categories/bg/bg-06.png');
+            @extend %bgi-property;
+        }
+
+        .categories__cards-img {
+            position: absolute;
+            top: -50px;
+        }
+
+        .categories__cards-img--change {
+            width: 120px;
+            height: 120px;
+            top: -40px;
+            left: 45px;
+        }
+
+        .categories__cards-name {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #000000;
+        }
+    }
+}
+
+.categories-margin {
+    margin-bottom: 183px;
+}

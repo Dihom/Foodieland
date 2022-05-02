@@ -21,6 +21,16 @@ body {
     color: $color-title;
 }
 
+.subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: $color-subtitle;
+}
+
 .description {
     font-family: 'Inter';
     font-style: normal;
