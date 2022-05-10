@@ -40,6 +40,19 @@ body {
     color: $color-descpr;
 }
 
+.preparation {
+    display: flex;
+    gap: 16px;
+
+    &__time {
+        @extend %preparation; 
+    }
+
+    &__product {
+        @extend %preparation; 
+    }
+}
+
 .preparation__text {
     font-family: 'Inter';
     font-style: normal;

@@ -49,19 +49,6 @@
         margin-bottom: 30px;
     }
 
-    .preparation {
-        display: flex;
-        gap: 16px;
-
-        &__time {
-            @extend %preperation; 
-        }
-
-        &__product {
-            @extend %preperation; 
-        }
-    }
-
     .heading-left__preparation {
         margin-bottom: 99px;
     }

@@ -29,6 +29,7 @@
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
+        
 
         .categories__cards-item {
             padding-bottom: 30px;
@@ -40,6 +41,8 @@
             justify-content: flex-end;
             position: relative;
             transition: transform .2s ease-in-out;
+            cursor: pointer;
+    
         }
 
         .categories__cards-item:hover {
