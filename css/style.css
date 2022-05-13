@@ -416,6 +416,9 @@ body {
   margin-bottom: 183px;
 }
 
+.simple-recipes {
+  margin-bottom: 143px;
+}
 .simple-recipes__title {
   text-align: center;
   margin-bottom: 24px;
@@ -425,10 +428,10 @@ body {
   margin-bottom: 96px;
 }
 .simple-recipes__cards {
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 40px 40px;
+  justify-content: center;
 }
 .simple-recipes__card {
   padding-top: 16px;
@@ -455,6 +458,7 @@ body {
 .simple-recipes__card-title {
   margin-bottom: 24px;
   padding-left: 24px;
+  padding-right: 24px;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -475,12 +479,24 @@ body {
   border-radius: 50%;
 }
 .like__icon {
-  display: block;
+  position: absolute;
+  left: 12px;
+  top: 12px;
 }
 
 .preparation__product, .preparation__time {
   background: none;
   padding: 0;
+}
+
+.healthy-food {
+  display: block;
+  overflow: hidden;
+}
+
+.healthy-food__img {
+  object-fit: cover;
+  object-position: center center;
 }
 
 /*# sourceMappingURL=style.css.map */
